@@ -45,7 +45,7 @@ const steps = [
   { title: 'Review & submit', hint: 'Final checks' },
 ]
 
-const endpoint = 'https://script.google.com/macros/s/AKfycbwIoV-QgnNFQzgTqP4ceBDiWUowEKKee4W86PqOqTzolMcK9YG86EsCqp7h7NoKhEe0qQ/exec'
+const endpoint = 'https://script.google.com/macros/s/AKfycbyM68mCN1wmlUgDKLHDDsGRIiXqrC8uRDIQuUM9b34hH5k5ixJqZjdXXR3Y7TPHNHus0w/exec'
 const cookieName = 'zo-application-draft'
 
 function Field({ label, name, value, onChange, required, type = 'text', placeholder }: { label: string; name: string; value: string; onChange: (name: string, value: string) => void; required?: boolean; type?: string; placeholder?: string }) {
